@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WeaponShopItemArray>
+	<weaponShopItems>
+		<Item>
+			<lockHash>CU_WEP_TRIDENT</lockHash>
+			<nameHash>WEAPON_TRIDENT</nameHash>
+			<cost value ="14500"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_TRIDENT</textLabel>
+			<weaponDesc>WTD_TRIDENT</weaponDesc>
+			<weaponTT>WTT_TRIDENT</weaponTT>
+			<weaponUppercase>WTU_TRIDENT</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>
+		<Item>
+			<lockHash>CU_WEP_NOTZSAKURA</lockHash>
+			<nameHash>WEAPON_NOTZSAKURA</nameHash>
+			<cost value ="14500"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_NOTZSAKURA</textLabel>
+			<weaponDesc>WTD_NOTZSAKURA</weaponDesc>
+			<weaponTT>WTT_NOTZSAKURA</weaponTT>
+			<weaponUppercase>WTU_NOTZSAKURA</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>
+		<Item>
+			<lockHash>CU_WEP_BLACKPINK</lockHash>
+			<nameHash>WEAPON_BLACKPINK</nameHash>
+			<cost value ="14500"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_BLACKPINK</textLabel>
+			<weaponDesc>WTD_BLACKPINK</weaponDesc>
+			<weaponTT>WTT_BLACKPINK</weaponTT>
+			<weaponUppercase>WTU_BLACKPINK</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>	
+		<Item>
+			<lockHash>CU_WEP_FANHAND</lockHash>
+			<nameHash>WEAPON_FANHAND</nameHash>
+			<cost value ="14500"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_FANHAND</textLabel>
+			<weaponDesc>WTD_FANHAND</weaponDesc>
+			<weaponTT>WTT_FANHAND</weaponTT>
+			<weaponUppercase>WTU_FANHAND</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>		
+		<Item>
+			<lockHash>CU_WEP_HAMMERTHOR</lockHash>
+			<nameHash>WEAPON_HAMMERTHOR</nameHash>
+			<cost value ="14500"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_HAMMERTHOR</textLabel>
+			<weaponDesc>WTD_HAMMERTHOR</weaponDesc>
+			<weaponTT>WTT_HAMMERTHOR</weaponTT>
+			<weaponUppercase>WTU_HAMMERTHOR</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>		
+	</weaponShopItems>
+</WeaponShopItemArray>	

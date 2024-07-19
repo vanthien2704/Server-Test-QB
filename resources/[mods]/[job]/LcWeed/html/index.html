@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="display: none">
+    <div class="weed-system">
+      <div class="weed-image"></div>
+      <div class="weed-elipse"></div>
+      <div class="weed-elipse-2"></div>
+      <div class="weed-big-image"></div>
+      <div class="weed-big">
+        <div class="weed-label">CẦN SA <span></span></div>
+        <div class="weed-span">
+  
+        </div>
+        <div class="weed-details">
+          <div class="weed-detail">
+            <div class="weed-detail-first">
+              <div style="background-image: url(./imgs/growth.png)"></div>
+            </div>
+            <div class="weed-detail-dd">
+              <div class="weed-detail-dd-label">Sự phát triển</div>
+              <div class="weed-detail-dd-full">
+                <div class="weed-detail-dd-bar" id="growth"></div>
+              </div>
+            </div>
+          </div>
+          <div class="weed-detail">
+            <div class="weed-detail-first">
+              <div style="background-image: url(./imgs/disease.png)"></div>
+            </div>
+            <div class="weed-detail-dd">
+              <div class="weed-detail-dd-label">Sức khỏe</div>
+              <div class="weed-detail-dd-full">
+                <div class="weed-detail-dd-bar" id="health"></div>
+              </div>
+            </div>
+          </div>
+          <div class="weed-detail">
+            <div class="weed-detail-first">
+              <div style="background-image: url(./imgs/water.png)"></div>
+            </div>
+            <div class="weed-detail-dd">
+              <div class="weed-detail-dd-label">Nước</div>
+              <div class="weed-detail-dd-full">
+                <div class="weed-detail-dd-bar" id="water"></div>
+              </div>
+            </div>
+          </div>
+          <div class="weed-detail">
+            <div class="weed-detail-first">
+              <div style="background-image: url(./imgs/fertilizer.png)"></div>
+            </div>
+            <div class="weed-detail-dd">
+              <div class="weed-detail-dd-label">Phân bón</div>
+              <div class="weed-detail-dd-full">
+                <div class="weed-detail-dd-bar" id="fertilizer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="weed-buttons">
+          <div class="weed-mini-buttons">
+            <div class="weed-button" onclick="Give(`Water`)">Tưới nước</div>
+            <div class="weed-button" onclick="Give(`Fertilizer`)">Bón phân</div>
+            <!-- <div class="weed-button" onclick="Give(`Dust`)">Cung cấp chất kích thích tăng trưởng</div> -->
+          </div>
+          <div class="weed-button-big" onclick="Give(`Harvest`)">Thu hoạch</div>
+        </div>
+      </div>
+    </div>
+    <script src="nui://game/ui/jque ry.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

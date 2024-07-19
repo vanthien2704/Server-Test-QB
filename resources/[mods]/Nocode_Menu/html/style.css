@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+
+:root {
+    --bg-color-1: rgb(40, 40, 40);
+    --bg-color-2: rgb(63, 63, 63);
+    --bg-color-3: rgb(78, 78, 78);
+    --main-color: #FF6002;
+    --main-dark-color: #5e2300;
+    --main-hover-color: #ffad7c;
+    --text-color: rgb(255, 255, 255);
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    user-select: none;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+#display {
+    display: none;
+}
+
+#time-topic {
+    display: none;
+}
+
+#time-data-box {
+    display: none;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 29vh;
+    height: 63vh;
+    right: 70vh;
+    background-color: #000000d1;
+    border: 0.75vh solid var(--main-dark-color);
+    border-radius: 1.5vh;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -1.4vh;
+    width: 29vh;
+    height: 7vh;
+    background-color: var(--main-color);
+    border-bottom: 0.75vh solid var(--main-dark-color);
+    border-radius: 1vh 1vh 0 0;
+}
+
+.topic {
+    font-size: 2.4vh;
+    color: var(--text-color);
+}
+
+.fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vh;
+    height: 4vh;
+    color: var(--text-color);
+    transition: all 0.2s ease 0s;
+    border-radius: 0.5vh;
+    background-color: var(--main-dark-color);
+}
+
+.fa-arrow-up-wide-short {
+    font-size: 2.6vh;
+    position: absolute;
+    left: 1vh;
+}
+
+.fa-clouds {
+    font-size: 2.4vh;
+    position: absolute;
+    right: 1vh;
+    display: none;
+}
+
+.fa-solid:hover {
+    background-color: var(--main-color-hover);
+}
+
+.topic {
+    font-size: 2.4vh;
+    color: var(--text-color);
+}
+
+.first-page,
+.second-page {
+    width: 41.5vh;
+    height: 42.5vh;
+}
+
+.data-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 7.8vh;
+    width: 38.5vh;
+    left: 4%;
+    height: 40.5vh;
+    /* background-color: var(--bg-color-2); */
+    border-radius: 1vh;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    flex-direction: row;
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    width: 13vh;
+    height: 13vh;
+    background-color: var(--bg-color-3);
+    border-radius: 1vh;
+    transition: all 0.2s ease 0s;
+    margin-left: 0.25vh;
+    margin-right: 0.25vh;
+}
+
+.item:hover {
+    background-color: var(--main-hover-color);
+}
+
+.img-box {
+    position: absolute;
+    top: -1.25vh;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.7);
+}
+
+.data-name {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 2vh;
+    font-size: 1.6vh;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-bottom: 0.3vh solid var(--main-dark-color);
+    border-radius: 0.5vh;
+    padding-left: 0.75vh;
+    padding-right: 0.75vh;
+    white-space: nowrap;
+}
+
+.first-page .data-box {
+    /* background-color: var(--bg-color-1); */
+}
+
+.menu-box {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    top: 0px;
+    width: 100%;
+    height: 34.75vh;
+    /* background-color: var(--bg-color-2); */
+    border-radius: 1vh;
+}
+
+.fps-item {
+    position: relative;
+    display: flex;
+    width: 31.5%;
+    height: 48%;
+    background-color: var(--bg-color-3);
+    margin: 0.2vw;
+    border-radius: 1vh;
+    transition: all 0.2s ease 0s;
+}
+
+.fps-item:hover {
+    background-color: var(--main-hover-color);
+}
+
+.fps-item .img-box {
+    position: relative;
+    top: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10vh;
+    height: 10vh;
+}
+
+.warning-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 3.5vh;
+    width: 100%;
+    height: 2vh;
+    border-radius: 0.75vh 0.75vh 0px 0px;
+    background-image: linear-gradient(rgb(187, 17, 17) 0%, rgb(253, 23, 23) 30%, rgb(253, 23, 23) 70%, rgb(187, 17, 17) 100%);
+    display: none;
+}
+
+.text-warning {
+    position: absolute;
+    font-size: 1.2vh;
+    color: var(--text-color);
+}
+
+.color-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    width: 100%;
+    height: 3.5vh;
+    background-color: var(--bg-color-2);
+    display: none;
+}
+
+.color-mean {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 2.5vh;
+    background-color: var(--bg-color-1);
+    border-radius: 2vh;
+    padding-right: 0.85vh;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.color {
+    margin-right: 0.5vh;
+    width: 2.5vh;
+    height: 2.5vh;
+    background-color: var(--bg-color-2);
+    border-radius: 2vh;
+}
+
+.disabled {
+    background-color: rgb(121, 121, 121);
+}
+
+.enabled {
+    background-color: lightgreen;
+}
+
+.other-player {
+    background-color: lightgoldenrodyellow;
+}
+
+.text-mean {
+    font-size: 1.4vh;
+    color: var(--text-color);
+}

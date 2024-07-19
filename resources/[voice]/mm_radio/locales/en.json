@@ -1,0 +1,23 @@
+{
+    "join_notify_description": "Đã tham gia kênh %.2f MHz",
+    "invalid_notify_description": "Kênh %.2f MHz không có sẵn",
+    "already_notify_description": "Bạn đã tham gia kênh %.2f MHz",
+    "restricted_notify_description": "Bạn không được phép tham gia kênh %.2f MHz",
+    "volume_notify_description": "Âm lượng %d%%",
+    
+    "ui": {
+        "header": "Trong đàm",
+        "frequency": "Kênh đàm",
+        "disconnect": "Ngắt kết nối",
+        "notconnected": "Không kết nối",
+        "channels": "Kênh",
+        "radio": "Đàm",
+        "members": "Thành viên",
+        "favorites": "Yêu thích",
+        "recommended": "Đề xuất",
+        "clear": "Xóa",
+        "hide_overlay": "Ẩn OVERLAY",
+        "show_overlay": "Hiện OVERLAY",
+        "save": "Lưu"
+    }
+}

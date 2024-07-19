@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SContentUnlocks>
+
+
+    <!-- WEAPON BAT -->
+
+  <listOfUnlocks>
+	<Item>CU_WEP_BOARDWALK</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_COMET</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_CYBER</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_DANCER</Item>
+  </listOfUnlocks>
+
+    <listOfUnlocks>
+	<Item>CU_WEP_GHOSTHUNTER</Item>
+  </listOfUnlocks>
+
+    <listOfUnlocks>
+	<Item>CU_WEP_GRIM</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_GUANYU</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_KATANAWOMBAT</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_PUNKKOI</Item>
+  </listOfUnlocks>
+
+    <listOfUnlocks>
+	<Item>CU_WEP_SAMURAI</Item>
+  </listOfUnlocks>
+ 
+  <listOfUnlocks>
+	<Item>CU_WEP_SAMURAIULTRA</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_SLIPPER</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_VIVID</Item>
+  </listOfUnlocks>
+
+  <listOfUnlocks>
+	<Item>CU_WEP_WOLF</Item>
+  </listOfUnlocks>
+
+    <listOfUnlocks>
+	<Item>CU_WEP_WUKONG</Item>
+  </listOfUnlocks>
+   
+ 
+  
+  
+  
+</SContentUnlocks>
+
+
+

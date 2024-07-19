@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nocode_Menu</title>
+</head>
+<body>
+    <div id="display">
+        <div class="container">
+            <div class="header">
+                <i class="fa-solid fa-arrow-up-wide-short" id="go-first-page"></i>
+                <div class="topic" id="fps-topic">เมนูตั้งค่าเพิ่ม FPS</div>
+                <div class="topic" id="weather-topic">เมนูปรับสภาพอากาศ</div>
+                <div class="topic" id="time-topic">เมนูปรับเวลา</div>
+                <i class="fa-solid fa-clouds" id="go-second-page"></i>
+            </div>
+            <div class="first-page" id="first-page">
+                <div class="data-box" id="fps-data-box">
+                    <div class="menu-box">
+                        <div class="fps-item" id="boost">
+                            <img class="img-box" src="img/fps/fps.png" alt="">
+                            <div class="data-name">บูสต์ FPS</div>
+                        </div>
+                        <div class="fps-item" id="fashion">
+                            <img class="img-box" src="img/fps/teddy-bear.png" alt="">
+                            <div class="data-name">แฟชั่นกดใช้</div>
+                        </div>
+                        <div class="fps-item" id="effect">
+                            <img class="img-box" src="img/fps/effect.png" alt="">
+                            <div class="data-name">เอฟเฟคต่างๆ</div>
+                        </div>
+                        <div class="fps-item" id="blood">
+                            <img class="img-box" src="img/fps/blood.png" alt="">
+                            <div class="data-name">เลือดตามจุด</div>
+                        </div>
+                        <div class="fps-item" id="killfeed">
+                            <img class="img-box" src="img/fps/death.png" alt="">
+                            <div class="data-name">ปิด Killfeed</div>
+                        </div>
+                        <div class="fps-item" id="chat">
+                            <img class="img-box" src="img/fps/chat.png" alt="">
+                            <div class="data-name">ปิด twitter</div>
+                        </div>
+                    </div>
+
+                    <div class="warning-box">
+                        <div class="text-warning">คำเตือน : เปิดเมนูแล้วก็อย่าลืมปรับภาพกราฟฟิคให้เข้ากับสเปคคอมกันด้วยหละ</div>
+                    </div>
+
+                    <div class="color-box">
+                        <div class="color-mean">
+                            <div class="color disabled"></div>
+                            <div class="text-mean">ปิดใช้งาน</div>
+                        </div>
+                        <div class="color-mean">
+                            <div class="color enabled"></div>
+                            <div class="text-mean">เปิดใช้งาน</div>
+                        </div>
+                        <div class="color-mean">
+                            <div class="color other-player"></div>
+                            <div class="text-mean">ปิดแค่ของผู้เล่นคนอื่น</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-page" id="second-page">
+                <div class="data-box" id="weather-data-box">
+                    <div class="item" id="EXTRASUNNY">
+                        <img class="img-box" src="img/weather/sunny.png" alt="">
+                        <div class="data-name">แดดจ้า</div>
+                    </div>
+                    <div class="item" id="RAIN">
+                        <img class="img-box" src="img/weather/rain.png" alt="">
+                        <div class="data-name">ฝนตก</div>
+                    </div>
+                    <div class="item" id="OVERCAST">
+                        <img class="img-box" src="img/weather/cloudy.png" alt="">
+                        <div class="data-name">มืดครึ้ม</div>
+                    </div>
+                    <div class="item" id="THUNDER">
+                        <img class="img-box" src="img/weather/storm.png" alt="">
+                        <div class="data-name">ฟ้าผ่า</div>
+                    </div>
+                    <div class="item" id="FOGGY">
+                        <img class="img-box" src="img/weather/fog.png" alt="">
+                        <div class="data-name">หมอก</div>
+                    </div>
+                    <div class="item" id="SNOW">
+                        <img class="img-box" src="img/weather/snowflake.png" alt="">
+                        <div class="data-name">หิมะ</div>
+                    </div>
+                    <div class="item" id="XMAS">
+                        <img class="img-box" src="img/weather/snow.png" alt="">
+                        <div class="data-name">หิมะตก</div>
+                    </div>
+                    <div class="item" id="HALLOWEEN">
+                        <img class="img-box" src="img/weather/moon.png" alt="">
+                        <div class="data-name">ฮาโลวีน</div>
+                    </div>
+                    <div class="item" id="TIME">
+                        <img class="img-box" src="img/weather/clock.png" alt="">
+                        <div class="data-name">เวลา</div>
+                    </div>
+                </div>
+                <div class="data-box" id="time-data-box">
+                    <div class="item" id="morning">
+                        <img class="img-box" src="img/time/dawn.png" alt="">
+                        <div class="data-name">ตอนเช้า</div>
+                    </div>
+                    <div class="item" id="morning">
+                        <img class="img-box" src="img/time/afternoon.png" alt="">
+                        <div class="data-name">ตอนกลางวัน</div>
+                    </div>
+                    <div class="item" id="evening">
+                        <img class="img-box" src="img/time/day-and-night.png" alt="">
+                        <div class="data-name">ตอนเย็น</div>
+                    </div>
+                    <div class="item" id="night">
+                        <img class="img-box" src="img/time/night.png" alt="">
+                        <div class="data-name">ตอนดึก</div>
+                    </div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item" id="WEATHER">
+                        <img class="img-box" src="img/time/cloudy.png" alt="">
+                        <div class="data-name">สภาพอากาศ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

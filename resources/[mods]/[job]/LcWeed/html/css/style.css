@@ -1,0 +1,258 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.weed-system {
+  width: 42.4%;
+  height: 100%;
+  animation: rightSide 1s ease-in-out;
+  background: linear-gradient(
+    270deg,
+    rgba(15, 25, 40, 0) 2.65%,
+    rgba(9, 16, 27, 0.75) 38.06%,
+    #09101b 100%
+  );
+}
+
+.weed-image {
+  position: absolute;
+  width: 21%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../imgs/weed-left.png");
+}
+
+.weed-elipse {
+  position: absolute;
+  border-radius: 25.4167vw;
+  opacity: 0.55;
+  background: #07c330;
+  filter: blur(12.8385vw);
+  margin-top: 27vw;
+  margin-left: -7vw;
+  width: 25.4%;
+  height: 11.9%;
+}
+
+.weed-elipse-2 {
+  position: absolute;
+  border-radius: 25.4167vw;
+  opacity: 0.55;
+  background: #07c330;
+  margin-left: -7vw;
+  filter: blur(12.8385vw);
+  width: 25.4%;
+  height: 11.9%;
+}
+
+.weed-big-image {
+  position: absolute;
+  width: 19.552vw;
+  height: 19.552vw;
+  margin-left: 4vw;
+  margin-top: 2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../imgs/weed-big.png");
+}
+
+.weed-big {
+  position: absolute;
+  width: 16.0938vw;
+  height: 27.5521vw;
+  margin-left: 6vw;
+  margin-top: 20vw;
+}
+
+.weed-label {
+  color: #fff;
+  text-align: center;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 1.1628vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0116vw;
+}
+
+.weed-label span {
+  font-family: "Gilroy-Light", sans-serif;
+}
+
+.weed-span {
+  color: rgba(255, 255, 255, 0.45);
+  text-align: center;
+  font-family: "Gilroy-Light", sans-serif;
+  width: 100%;
+  font-size: 0.6771vw;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 0.3vw;
+  line-height: 180%; /* 0px */
+  letter-spacing: 0.0068vw;
+}
+
+.weed-details {
+  width: 100%;
+  margin-top: 1.5vw;
+  height: 13.0208vw;
+}
+
+.weed-detail:nth-child(1) {
+  margin-top: 0;
+}
+
+.weed-detail {
+  width: 100%;
+  display: flex;
+  height: 2.5396vw;
+  margin-top: 0.9vw;
+}
+
+.weed-buttons {
+  width: 100%;
+  height: 5.2396vw;
+  margin-top: 2vw;
+}
+
+.weed-button:nth-child(1) {
+  margin-left: 0;
+}
+
+.weed-button {
+  border-radius: 0.1563vw;
+  background: linear-gradient(180deg, #6e3bfc 0%, #3d1f90 100%);
+  width: 45%;
+  margin-left: 5%;
+  line-height: 1.8vw;
+  color: #fff;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 0.625vw;
+  text-align: center;
+  height: 1.7708vw;
+  float: left;
+  transition: 0.4s;
+}
+
+.weed-button-big {
+  border-radius: 0.1563vw;
+  border: 0.0521vw solid #feea35;
+  background: linear-gradient(180deg, #ecd931 0%, #dd9410 100%);
+  width: 50%;
+  color: #fff;
+  line-height: 1.9vw;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 0.625vw;
+  text-align: center;
+  margin-top: -0.4vw;
+  margin-left: 4.2vw;
+  height: 2.1354vw;
+  transition: 0.4s;
+}
+
+.weed-mini-buttons {
+  width: 100%;
+  height: 55%;
+}
+
+.weed-detail-first {
+  width: 2.6vw;
+  height: 100%;
+  border-radius: 0.2083vw;
+  border: 0.0521vw solid #00f8b9;
+  background: radial-gradient(
+    62.19% 62.19% at 50% 50%,
+    rgba(0, 248, 185, 0.25) 0%,
+    rgba(0, 102, 76, 0.25) 100%
+  );
+}
+
+.weed-detail-first div {
+  width: 80%;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../imgs/weed-example.png");
+}
+
+.weed-detail-dd {
+  border-radius: 0.2083vw;
+  width: 80%;
+  margin-left: 0.5vw;
+  height: 100%;
+  background: radial-gradient(
+    83.13% 83.13% at 50% 50%,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.weed-detail-dd-label {
+  color: #00f8b9;
+  text-shadow: 0px 0.2083vw 1.4583vw rgba(0, 248, 185, 0.55);
+  font-family: "Gilroy-Light", sans-serif;
+  margin-left: 0.3vw;
+  margin-top: 0.35vw;
+  font-size: 0.625vw;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.weed-detail-dd-full {
+  border-radius: 0.1042vw;
+  width: 95%;
+  height: 0.7292vw;
+  margin-left: 0.3vw;
+  margin-top: 0.25vw;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.weed-detail-dd-bar {
+  background: #00f8b9;
+  height: 100%;
+  transition: 0.3s;
+  border-radius: 0.1vw;
+}
+
+.weed-button:hover {
+  cursor: pointer;
+  scale: 0.95;
+}
+
+.weed-button-big:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+@keyframes rightSide {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

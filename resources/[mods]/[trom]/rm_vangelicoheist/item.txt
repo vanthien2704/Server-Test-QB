@@ -1,0 +1,13 @@
+weapon_bzgas
+
+add to item.lua
+    ['paintingg'] = {['name'] = 'paintingg', ['label'] = 'Painting G', ['weight'] = 120, ['type'] = 'item', ['image'] = 'paintingg.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Painting G'},
+    ['paintingf'] = {['name'] = 'paintingf', ['label'] = 'Painting F', ['weight'] = 120, ['type'] = 'item', ['image'] = 'paintingf.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Painting F'},
+    ['paintingh'] = {['name'] = 'paintingh', ['label'] = 'Painting H', ['weight'] = 120, ['type'] = 'item', ['image'] = 'paintingh.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Painting H'},
+    ['paintingj'] = {['name'] = 'paintingj', ['label'] = 'Painting J', ['weight'] = 120, ['type'] = 'item', ['image'] = 'paintingj.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Painting J'},
+
+    ['vanDiamond'] = {['name'] = 'vanDiamond', ['label'] = 'Van Diamond', ['weight'] = 120, ['type'] = 'item', ['image'] = 'vandiamond.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Van Diamond'},
+    ['vanPanther'] = {['name'] = 'vanPanther', ['label'] = 'Van Panther', ['weight'] = 120, ['type'] = 'item', ['image'] = 'vanpanther.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Van Panther'},
+    ['vanNecklace'] = {['name'] = 'vanNecklace', ['label'] = 'Van Necklace', ['weight'] = 120, ['type'] = 'item', ['image'] = 'vannecklace.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Van Necklace'},
+    ['vanBottle'] = {['name'] = 'vanBottle', ['label'] = 'Van Bottle', ['weight'] = 120, ['type'] = 'item', ['image'] = 'vanbottle.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Van Bottle'},
+    ['gasmask'] = {['name'] = 'gasmask', ['label'] = 'Mặt mạ phòng độc', ['weight'] = 120, ['type'] = 'item', ['image'] = 'gasmask.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Van Bottle'},
