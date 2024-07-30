@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit&display=swap);
+
+body {
+    overflow: hidden
+}
+
+*,
+span {
+    font-family: Kanit, sans-serif
+}
+
+* {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.menucontainer {
+    width: 23%;
+    height: 75%;
+    background: linear-gradient(90deg,rgb(0, 0, 0 ,0.7 ),rgba(0, 0, 0, 0.7 ));
+    border-radius: 15px 15px 15px 15px;
+    transition: filter .23s ease-in-out
+}
+
+.searchtab {
+    border-radius: 10px 10px 0 0
+}
+
+.catetab,
+.searchtab {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.catetab {
+    flex-direction: row;
+    gap: 5px
+}
+
+.detailtab {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.currentaction {
+    color: #eee;
+    font-size: 19px;
+    padding-left: 17px
+}
+
+.input-name {
+    width: 90%;
+    height: 40px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: rgb(53, 51, 51);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, .5)
+}
+
+.search-icon {
+    width: 0px;
+    height: 0px;
+    
+}
+
+.cateitem,
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cateitem {
+    border-radius: 50%;
+    background: rgb(53, 51, 51);
+    height: 53px;
+    width: 53px
+}
+
+.cateitem>svg>g>g>ellipse,
+.cateitem>svg>g>g>g>circle,
+.cateitem>svg>g>g>g>path,
+.cateitem>svg>g>g>path,
+.cateitem>svg>g>path {
+    fill: #eee
+}
+
+.cateitem.active,
+.cateitem:hover {
+    cursor: pointer;
+    background: #00a2ff
+}
+
+.cateitem.active>svg>g>g>ellipse,
+.cateitem.active>svg>g>g>g>circle,
+.cateitem.active>svg>g>g>g>path,
+.cateitem.active>svg>g>g>path,
+.cateitem.active>svg>g>path,
+.cateitem:hover>svg>g>g>ellipse,
+.cateitem:hover>svg>g>g>g>circle,
+.cateitem:hover>svg>g>g>g>path,
+.cateitem:hover>svg>g>g>path,
+.cateitem:hover>svg>g>path {
+    fill: #eee
+}
+
+.actiondata {
+    overflow-y: scroll;
+    width: 100%;
+    height: 75%
+}
+
+.actiondata::-webkit-scrollbar,
+.otherinventory::-webkit-scrollbar {
+    width: 3px
+}
+
+.actiondata::-webkit-scrollbar-thumb,
+.otherinventory::-webkit-scrollbar-thumb {
+    background: #00a2ff;
+    border-radius: 8px
+}
+
+.actiondata::-webkit-scrollbar-track,
+.otherinventory::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .2);
+    border-radius: 8px
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    height: 7.8%;
+    font-size: 18px;
+    background: rgba(22, 22, 22, 0.8);
+    color: #eee;
+    border-radius: 13px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.data.active,
+.data:hover {
+    color: #eee;
+    background: #00a2ff
+}
+
+.data.active>.favbutton>svg>g>path,
+.data:hover>.favbutton>svg>g>path {
+    fill: #000
+}
+
+.data.active>.favbutton.active>svg>g>path,
+.data:hover>.favbutton.active>svg>g>path {
+    fill: #fde140
+}
+
+.textdata {
+    padding-left: 10px
+}
+
+.favbutton {
+    padding-right: 10px;
+    display: flex
+}
+
+.favbutton:hover {
+    cursor: pointer
+}
+
+.favbutton>svg>g>path {
+    fill: #eee
+}
+
+.favbutton.active>svg>g>path {
+    fill: #fde140
+}
+
+.status {
+    display: flex;
+    font-size: 0.1px;
+}
+
+.setting {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 10px
+}
+
+.favorite>svg>g>path {
+    fill: #eee
+}
+
+.favorite:hover,
+.history:hover {
+    cursor: pointer
+}
+
+.history>svg>g>g>path {
+    fill: #eee
+}
+
+.advicetxt {
+    background: rgba(35, 35, 35, .8);
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 15px;
+    left: 50%;
+    bottom: 50px;
+    bottom: 0;
+    color: #eee;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-emphasis: none;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    border-radius: 10px
+}

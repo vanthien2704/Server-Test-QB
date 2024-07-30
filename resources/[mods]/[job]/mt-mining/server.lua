@@ -6,6 +6,7 @@ AddEventHandler("mt-mining:server:DarPedras", function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
         Player.Functions.AddItem("stone", 1)
+        TriggerClientEvent("UpdateQuest", src, "daoda", 1)
         TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["stone"], "add")
         TriggerClientEvent('QBCore:Notify', src, 'You broke Stone!.')
 end)

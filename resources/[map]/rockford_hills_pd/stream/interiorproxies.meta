@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SInteriorOrderData>
-  <startFrom value="3000" />
-  <proxies>
-	<Item>bh1_shell_down_floor_milo_</Item>
-	<Item>bh_shell_main_floors_milo_</Item>
-  </proxies>
-</SInteriorOrderData>

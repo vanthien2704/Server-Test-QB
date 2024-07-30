@@ -1,0 +1,139 @@
+body {
+    overflow: hidden;
+    background: none;
+}
+
+.Container {
+    display: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1820px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.statuscontainer {
+    display: none;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    right: 0;
+
+}
+
+.MoneyHud {
+    position: absolute;
+    width: 172px;
+    height: 55px;
+    right: 5px;
+    top: -45px;
+    background: linear-gradient(269.98deg, rgba(255, 255, 255, 0.466) 20.54%, rgba(0, 0, 0, 0) 92.42%);
+    border-radius: 1px;
+}
+
+.BankHud {
+    position: absolute;
+    width: 150px;
+    float: left;
+    height: 55px;
+    right: 5px;
+    top: 15px;
+    background: linear-gradient(269.98deg, rgba(255, 255, 255, 0.466) 20.54%, rgba(0, 0, 0, 0) 92.42%);
+    border-radius: 1px;
+}
+
+.JobHud {
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    right: 12px;
+    top: 195px;
+    background: linear-gradient(269.98deg, rgba(238, 117, 60, 0.25) 20.54%, rgba(252, 243, 254, 0) 92.42%);
+    border-radius: 1px;
+}
+
+.bankmoney {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    right: 60px;
+    top: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 56px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+.jobtext {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    right: 60px;
+    top: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 56px;
+    color: #FFFFFF;
+    direction: rtl;
+}
+
+
+
+.wallet {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 15px;
+    right: 20px;
+}
+
+.clock {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 60px;
+    right: 20px;
+}
+
+.headercontainer {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    right: 0;
+
+}
+
+.Halt {
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    right: 12px;
+    top: 40px;
+    background: linear-gradient(269.98deg, rgba(147, 248, 117, 0.5) 20.54%, rgba(252, 243, 254, 0) 92.42%);
+    border-radius: 1px;
+}
+
+.timetext {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    right: 60px;
+    top: 47px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 56px;
+    text-align: right;
+    color: #FFFFFF;
+}

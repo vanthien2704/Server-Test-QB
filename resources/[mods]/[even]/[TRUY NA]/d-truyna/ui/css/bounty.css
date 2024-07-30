@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+#Bounty_IMG {
+    width: 136px;
+    height: 132px;
+    /* background-image: url('');
+    background-repeat: no-repeat;
+    background-size: contain; */
+    margin: 0;
+    position: absolute;
+    top: 20.6%;
+    right: 40.0%;
+}
+
+.Bounty_Container {
+    /* filter: grayscale(1); */
+    width: 400px;
+    height: 500px;
+    background-image: url('../imgs/bounty.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    zoom: 80%;
+}
+
+.Bounty_Header {
+    margin: 0;
+    position: absolute;
+    top: 7.2%;
+    right: 4%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.Bounty_Name {
+    width: 200px;
+    background-color: aquamarine;
+    margin: 0;
+    position: absolute;
+    top: 51%;
+    font-size: 30px;
+    right: 32%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.Bounty_Money {
+    width: 160px;
+    /* background-color: #c9841dad; */
+    margin: 0;
+    position: absolute;
+    top: 77%;
+    font-size: 40px;
+    right: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(#ff0000 , #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Bebas Neue", sans-serif;
+}
+.Bounty_HeaderTime {
+    top: 88%;
+    right: 7%;
+    font-size: 11px;
+    position: absolute;
+    
+}
+.Bounty_Time {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    font-size: 3.2vh;
+    left: 42%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    background: -webkit-linear-gradient(#0e8faf , #0e8faf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Bounty_HeaderText {
+    position: absolute;
+    top: 88%;
+    font-size: 11px;
+    left: 7%;
+}
+.Bounty_Text {
+    position: absolute;
+    top: 65.0%;
+    left: 30%;
+    font-size: 29px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+.Bounty_HeaderOut {
+    font-family: "Bebas Neue", sans-serif;
+    bottom: -10%;
+    position: absolute;
+    width: 246px;
+    display: flex;
+    /* background-color: aquamarine; */
+    font-size: 20px;
+    justify-content: center;
+    /* font-weight: bold; */
+    
+}
+
+#textOut{
+    color: #fff;
+}

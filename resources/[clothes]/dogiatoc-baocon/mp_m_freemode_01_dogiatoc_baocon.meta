@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopPedApparel>
+<pedName>mp_m_freemode_01</pedName>
+<dlcName>dogiatoc_baocon</dlcName>
+<fullDlcName>mp_m_freemode_01_dogiatoc_baocon</fullDlcName>
+<eCharacter>SCR_CHAR_MULTIPLAYER_M</eCharacter>
+<creatureMetaData>mp_creaturemetadata_dogiatoc_baocon</creatureMetaData>
+
+<pedOutfits>
+</pedOutfits>
+<pedComponents>
+</pedComponents>
+<pedProps>
+</pedProps>
+
+</ShopPedApparel>

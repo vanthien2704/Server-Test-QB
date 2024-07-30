@@ -19,7 +19,7 @@ RegisterNetEvent('mad-airdrops:client:startAirdrop',function(coords)
   SetBlipAsShortRange(airdropBlip, true)
   SetBlipColour(airdropBlip, 1)
   BeginTextCommandSetBlipName("STRING")
-  AddTextComponentSubstringPlayerName("Air Drop")
+  AddTextComponentSubstringPlayerName("Hòm thính")
   EndTextCommandSetBlipName(airdropBlip)
 
   radius = AddBlipForRadius(coords, 120.0)

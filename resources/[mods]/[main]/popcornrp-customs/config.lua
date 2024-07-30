@@ -84,13 +84,13 @@ Config.Mods = {
     { id = 15, label = 'Suspension Upgrade',   category = 'performance' },
     { id = 16, label = 'Armor Upgrade',        category = 'performance', enabled = false },
     { id = 17, label = 'Nitrous',              category = 'performance', enabled = false },
-    { id = 18, label = 'Turbo Upgrade', category = 'performance' },
+    -- { id = 18, label = 'Turbo Upgrade', category = 'performance' },
     { id = 19, label = 'Subwoofer',            category = 'parts' },
-    { id = 20, label = 'Tyre smoke',                category = 'colors' },
+    -- { id = 20, label = 'Tyre smoke',                category = 'colors' },
     { id = 21, label = 'Hydraulics',           category = 'parts' },
-    { id = 22, label = 'Xenon lights',         category = 'colors' },
-    { id = 23, label = 'Wheels', category = 'parts' },
-    { id = 24, label = 'Rear wheels or hydraulics', category = 'parts' },
+    -- { id = 22, label = 'Xenon lights',         category = 'colors' },
+    -- { id = 23, label = 'Wheels', category = 'parts' },
+    -- { id = 24, label = 'Rear wheels or hydraulics', category = 'parts' },
     { id = 25, label = 'Plate holder',         category = 'parts' },
     { id = 26, label = 'Vanity Plates',        category = 'parts' },
     { id = 27, label = 'Trim A',               category = 'parts' },
@@ -114,7 +114,7 @@ Config.Mods = {
     { id = 45, label = 'Fuel Tank',            category = 'parts' },
     { id = 46, label = 'Left door',            category = 'parts' },
     { id = 47, label = 'Right door',           category = 'parts' },
-    { id = 48, label = 'Livery',               category = 'colors' },
+    -- { id = 48, label = 'Livery',               category = 'colors' },
     { id = 49, label = 'Lightbar',             category = 'parts' },
 }
 
@@ -532,6 +532,14 @@ Config.PlateIndexes = {
     { id = 3, label = 'Blue on White 2' },
     { id = 4, label = 'Blue on White 3' },
     { id = 5, label = 'Yankton' },
+    -- Uncomment below for game build 3095 Chop Shop DLC
+    --{ id = 6,   label = 'eCola' },
+    --{ id = 7,   label = 'Las Venturas' },
+	--{ id = 8,   label = 'Liberty City' },
+    --{ id = 9,   label = 'LS Car Meet' },
+    --{ id = 10,  label = 'Panic' },
+    --{ id = 11,  label = 'Pounders' },
+    --{ id = 12,  label = 'Sprunk' },
 }
 
 Config.Neon = {

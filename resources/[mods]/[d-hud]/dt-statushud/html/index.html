@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<title>DTEAM DEV</title>
+</head>
+
+<body>
+
+	<!-- <div id="clockdate">
+		<div class="clockdate-wrapper">
+			<div id="clock"></div>
+		</div>
+	</div> -->
+
+	<div class="containner">
+		<div class="hud">
+			<div class="carebear">
+				<div class="clockdate-wrapper">
+					<div id="clock"></div>
+				</div>
+			</div>
+			<div class="mainhud"></div>
+			<div class="mainstamina"></div>
+
+			<div class="idbox">
+				<p1>ID&nbsp;:&nbsp;<p2 id="id">100</p2>
+				</p1>
+			</div>
+			<div class="health">
+				<div class="healthicon"><i class="fa-solid fa-heart"></i></div>
+				<div id="health"></div>
+				<label style="color:white; font-weight: bold;"><span id="thealth">100%</span></label>
+			</div>
+
+			<div class="armoricon"><i class="fa-solid fa-shield-halved"></i></div>
+			<div class="armorbox">
+				<div id="armor"></div>
+				<div class="bar-tick">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+
+			<div class="staminabox">
+				<div id="stamina"></div>
+			</div>
+
+			<div class="mainminaa">
+				<svg class="circle2 run-circle2" width="70" height="70">
+					<circle class="progressplayer run" r="18" cx="23" cy="43" />
+				</svg>
+				<div class="icon2"><i class="fa-solid fa-bolt" style="color: #f3ff46;"></i></div>
+				<!-- <div class="textbox"><span id="tstamina">100</span></div> -->
+			</div>
+
+
+			<div class="main">
+				<svg class="circle food-circle" width="70" height="70">
+					<circle class="progressplayer food" r="18" cx="23" cy="43" />
+				</svg>
+				<div class="icon"><i class="fa-solid fa-burger" style="color: #ff8a46;"></i></div>
+				<div class="textbox"><span id="thunger">100</span></div>
+			</div>
+			<div class="main">
+				<svg class="circle water-circle" width="70" height="70">
+					<circle class="progressplayer water" r="18" cx="23" cy="43" />
+				</svg>
+				<div class="icon"><i class="fa-solid fa-glass-water" style="color: #46d1ff;"></i></div>
+				<div class="textbox"><span id="tthirst">100</span></div>
+			</div>
+			<div class="main">
+				<svg class="circle brain-circle" width="70" height="70">
+					<circle class="progressplayer brain" r="18" cx="23" cy="43" />
+				</svg>
+				<div class="icon"><i class="fas fa-brain" style="color: #ff4659;"></i></div>
+				<div class="textbox"><span id="tstress">STRESS</span></div>
+			</div>
+			<div class="main">
+				<svg class="circle oxy-circle" width="70" height="70">
+					<circle class="progressplayer oxy" r="18" cx="23" cy="43" />
+				</svg>
+				<div class="icon"><i class="fa-solid fa-lungs" style="color: #70ffc1;"></i></div>
+				<div class="textbox"><span id="toxy">OXY</span></div>
+			</div>
+
+		</div>
+	</div>
+</body>
+<!-- <div class="border">
+	<div class="square" ></div>
+</div> -->
+
+</html>
+
+<script>
+	function startTime() {
+		var today = new Date();
+		var hr = today.getHours();
+		var min = today.getMinutes();
+		var sec = today.getSeconds();
+		var months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
+		var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+		var curWeekDay = days[today.getDay()];
+		var curDay = today.getDate();
+		var curMonth = months[today.getMonth()];
+		var curYear = today.getFullYear();
+		var date = curDay + "/" + curMonth + "/" + curYear;
+		ap = (hr < 12) ? "<span>AM</span>" : "<span>PM</span>";
+		hr = (hr == 0) ? 24 : hr;
+		hr = (hr > 25) ? hr - 24 : hr;
+		//Add a zero in front of numbers<10
+		hr = checkTime(hr);
+		min = checkTime(min);
+		sec = checkTime(sec);
+		document.getElementById("clock").innerHTML = hr + ":" + min + ":" + sec + " " + ap + " - " + date;
+
+		//   var date = curWeekDay+", "+curDay+" "+curMonth+" "+curYear;
+		//   document.getElementById("date").innerHTML = date;
+
+		var time = setTimeout(function () { startTime() }, 500);
+	}
+
+	function checkTime(i) {
+		if (i < 10) {
+			i = "0" + i;
+		}
+		return i;
+	}
+
+	startTime();
+
+</script>

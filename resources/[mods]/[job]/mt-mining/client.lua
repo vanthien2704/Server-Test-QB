@@ -42,6 +42,8 @@ end)
 -- Evento para partir pedras
 RegisterNetEvent('mt-mining:client:ApanharPedra')
 AddEventHandler("mt-mining:client:ApanharPedra", function()
+
+
     QBCore.Functions.Progressbar("pedras", "BROKING STONE", 500, false, true, {
         disableMovement = true,
         disableCarMovement = true,
